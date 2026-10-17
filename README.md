@@ -8,19 +8,19 @@ and converts it into:2000
 It supports basic numbers, tens, hundreds, and larger number units such as thousand, million, and billion.
 
 ### Some working Examples
-Example 1
+#### Example 1
 Input: Two Thousand
 Output: 2000
 
-Example 2
+#### Example 2
 Input: Eight Million
 Output: 8000000
 
-Example 3
+#### Example 3
 Input: Three Hundred Twenty Five
 Output: 325
 
-#### How It Works
+## How It Works
 The program uses Python dictionaries to map English number words to their numerical values.
 For example:
 "two" → 2
@@ -29,7 +29,7 @@ For example:
 "thousand" → 1000
 "million" → 1000000
 
-# The input string is:
+### The input string is:
 Converted to lowercase.
 Split into individual words.
 Processed word by word.
@@ -48,8 +48,8 @@ Hundred   → ×100
 Result:
 2500
 
-Author
+### Author
 Laraib Rasheed
 Built as a personal Python project while learning programming and problem solving.
 
-Feedback welcome.
+#### Feedback welcome.
